@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Formativa 3 - 5417 - Clientes</title>
+    <link rel="stylesheet" href="assets/css/datatables.css">
+    <link rel="stylesheet" href="assets/css/select2.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="assets/js/lib/jquery.js"></script>
+    <script src="assets/js/lib/datatables.js"></script>
+    <script src="assets/js/lib/select2.js"></script>
+    <script src="assets/js/lib/sweatalert.js"></script>
+    <script src="assets/js/lib/bootstrap.js"></script>
+    <script src="assets/js/login.js"></script>
+
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <h5 class="card-header">Utilizador</h5>
+            <div class="card-body">
+                <h5 class="card-title">Registar</h5>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="tpUser" class="form-label">Tipo Utilizador</label>
+                        <select class="form-control" id="tpUser">
+                        </select>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="button" class="btn btn-primary" onclick="registaUser()">Registar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <div class="card">
+                <h5 class="card-header">Login</h5>
+                <div class="card-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="usernameLogin" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="usernameLogin">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="passwordLogin" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passwordLogin">
+                        </div>
+    
+                        <div class="col-12">
+                            <button type="button" class="btn btn-primary" onclick="login()">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+
+</body>
+
+</html>
