@@ -4,37 +4,27 @@
 
 🔁 Centralização das operações CRUD (Create, Read, Update, Delete)
 
-📥 Tratamento automático de pedidos via POST (op)
+🧬 Aplicação de herança nos controladores ClubeController e JogadorController
 
-🧬 Herança aplicada em ClubeController e JogadorController
-
-♻️ Reutilização de código e redução de duplicações
-
-🛠️ Manutenção mais simples e organizada
-
-🧱 Reforço do padrão MVC
-
-🚀 Facilidade de expansão para novos módulos
-
-📚 Aplicação prática de POO em PHP (abstração e herança)
+📚 Aplicação prática de Programação Orientada a Objectos em PHP
 
 
-**👤 Gestão de Utilizadores**
+## **👤 Gestão de Utilizadores**
 
-🔐 Autenticação com sessões PHP
+🔐 Autenticação de utilizadores com sessões PHP
 
-🧑‍💼 Diferentes tipos de utilizador
+🧑‍💼 Suporte a diferentes tipos de utilizador
 
-🚪 Controlo de acesso às páginas
+🚪 Controlo de acesso às páginas da aplicação
 
-**🏟️ Gestão de Clubes & 🧍‍♂️ Jogadores**
+## **🏟️ Gestão de Clubes & 🧍‍♂️ Jogadores**
 
-➕ Registo, ✏️ edição, 📋 listagem e 🗑️ remoção
+➕ Registo, ✏️ edição, 📋 listagem e 🗑️ remoção de registos
 
-⚡ Operações CRUD via AJAX
+⚡ Operações CRUD realizadas via AJAX
 
-📊 DataTables + Select2
+📊 Tabelas interativas com DataTables e selecção avançada com Select2
 
-🔔 Feedback com SweetAlert2
+🔔 Feedback visual ao utilizador com SweetAlert2
 
-📱 Interface responsiva (Bootstrap)
+📱 Interface responsiva desenvolvida com Bootstrap
