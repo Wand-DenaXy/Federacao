@@ -1,4 +1,4 @@
-🧩 ControllerBase – Nova Funcionalidade Aprendida
+## **🧩 ControllerBase – Nova Funcionalidade Aprendida**
 
 🧠 Classe abstrata para padronização dos controladores
 
@@ -19,7 +19,7 @@
 📚 Aplicação prática de POO em PHP (abstração e herança)
 
 
-👤 Gestão de Utilizadores
+**👤 Gestão de Utilizadores**
 
 🔐 Autenticação com sessões PHP
 
@@ -27,7 +27,7 @@
 
 🚪 Controlo de acesso às páginas
 
-🏟️ Gestão de Clubes & 🧍‍♂️ Jogadores
+**🏟️ Gestão de Clubes & 🧍‍♂️ Jogadores**
 
 ➕ Registo, ✏️ edição, 📋 listagem e 🗑️ remoção
 
