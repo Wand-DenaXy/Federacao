@@ -60,7 +60,7 @@ O ` ControllerBase ` representa um dos principais pontos de aprendizagem do proj
 
 
 
-## **👤 Gestão de Utilizadores**
+## **Gestão de Utilizadores**
 
 O sistema inclui um módulo de autenticação e controlo de acessos, garantindo segurança e restrição de funcionalidades conforme o perfil do utilizador.
 
@@ -249,14 +249,6 @@ Decisão: Utilização de PDO para acesso à base de dados.
 
 - Suporte a prepared statements
 
-
-
-
-## Âmbito do Projeto
-
-Este projeto foi desenvolvido como trabalho académico para a disciplina de Metodologias e Desenvolvimento de Software na Universidade de Évora.  
-
----
 
 ## Autor
 
