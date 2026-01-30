@@ -183,6 +183,10 @@ Remoção de registos
 │   │
 │   │   └── login.js                      
 │   │       # JavaScript da View de autenticação
+│   ├── database/
+│   │   ├── database.sql                
+│   │   # Ficheiro SQL com a estrutura da base de dados 
+│   │
 │   │
 │   ├── model/
 │   │   ├── connection.php                
