@@ -239,7 +239,7 @@ Remoção de registos
 
 ## **Utilização de PDO**
 
-Decisão: Utilização de PDO para acesso à base de dados.
+**Decisão:** Utilização de PDO para acesso à base de dados.
 
 **Justificação:**
 
@@ -247,7 +247,6 @@ Decisão: Utilização de PDO para acesso à base de dados.
 
 - Código mais limpo e reutilizável
 
-- Suporte a prepared statements
 
 
 ## Autor
