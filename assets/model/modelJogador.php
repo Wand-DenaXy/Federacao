@@ -19,7 +19,7 @@ class Jogador{
         } else {
             $flag = false;
             $msg = "Error: " . $sql . "<br>" . $conn->error;
-            $this -> wFicheiroError(date("Y-m-d H:i:s")." - ".$conn->error);
+            
         }
        
 

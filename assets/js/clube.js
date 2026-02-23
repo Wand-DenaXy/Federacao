@@ -1,4 +1,3 @@
-//POST
 function registaClube() {
 
     let dados = new FormData();
@@ -36,35 +35,6 @@ function registaClube() {
         });
 }
 
-function getListaClubes() {
-    if ($.fn.DataTable.isDataTable('#tblClubes')) {
-        $('#tblClubes').DataTable().destroy();
-    }
-
-    let dados = new FormData();
-    dados.append("op", 2);
-
-
-    $.ajax({
-        url: "assets/controller/controllerClube.php",
-        method: "POST",
-        data: dados,
-        dataType: "json",
-        cache: false,
-        contentType: false,
-        processData: false
-    })
-
-        .done(function (msg) {
-            console.log(msg);
-            $('#listagemClubes').html(msg.clubes);
-            $('#tblClubes').DataTable()
-        })
-
-        .fail(function (jqXHR, textStatus) {
-            alert("Request failed: " + textStatus);
-        });
-}
 function getListaClubes() {
     if ($.fn.DataTable.isDataTable('#tblClubes')) {
         $('#tblClubes').DataTable().destroy();

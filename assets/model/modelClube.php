@@ -17,7 +17,7 @@ class Clube{
         } else {
             $flag = false;
             $msg = "Error: " . $sql . "<br>" . $conn->error;
-            $this -> wFicheiroError(date("Y-m-d H:i:s")." - ".$conn->error);
+           
         }
           
        
@@ -100,7 +100,6 @@ function getListaClubes() {
             $msg .= "<td></td>";
             $msg .= "<td></td>";
             $msg .= "<td></td>";
-            $msg .= "<td></td>";
             $msg .= "</tr>";
         }
         
@@ -140,7 +139,6 @@ function getListaClubes() {
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-        // output data of each row
             $row = $result->fetch_assoc();
         }
 
@@ -189,7 +187,6 @@ function getListaClubes() {
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-        // output data of each row
             while($row = $result->fetch_assoc()) {
                 $msg .= "<option value='".$row['id']."'>".$row['nome']."</option>"; 
             }
